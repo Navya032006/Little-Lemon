@@ -117,9 +117,9 @@ const Footer = () => {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="www.linkedin.com/in/navya-sai-2b0497316"
+                  href="https://www.linkedin.com/in/navya-sai-2b0497316"
                 >
-                  Linkdin
+                  Linkedln
                 </a>
               </li>
               <li>
