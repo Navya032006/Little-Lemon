@@ -1,0 +1,578 @@
+.reservation_form_container {
+  position: relative;
+  width: 100%;
+  background-color: var(--clr-bg-1);
+  padding: 1rem 0;
+}
+
+.little_Lemon_background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  max-width: 1080px;
+  width: 100%;
+  min-width: 800px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.little_Lemon_background img {
+  transform: rotate(-50deg);
+  display: block;
+  width: 220px;
+  filter: grayscale(1);
+  opacity: 0.1;
+  justify-self: flex-start;
+}
+
+.little_Lemon_background img:nth-last-of-type(odd) {
+  justify-self: flex-end;
+  transform: rotate(60deg);
+  opacity: 0.3;
+}
+
+.reservation_form_img_container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1.5rem 0;
+}
+
+.reservation_form_img_container figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  grid-template-rows: 220px;
+  gap: calc(4rem - 5%);
+}
+
+.reservation_form_img_container figure img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+  transition: 0.2s linear;
+}
+
+.reservation_btn_container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.reservation_btn_container button {
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 1rem 4rem;
+}
+
+/* Form1 */
+
+.reservation {
+  position: relative;
+  height: 100%;
+  z-index: 5;
+  background-color: transparent;
+  padding-bottom: 2.5rem;
+}
+
+.reservation_heading {
+  font-size: 3.5rem;
+  color: var(--clr-heading-1);
+  margin-bottom: 2rem;
+}
+.reservation form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr;
+  gap: 2.5rem 10rem;
+}
+
+.reservation label {
+  color: #ffffffc8;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.indoor label,
+.outdoor label {
+  display: inline;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.indoor input,
+.outdoor input {
+  width: unset;
+  vertical-align: middle;
+  margin-left: 1rem;
+  transform: translateY(-3px);
+}
+
+.reservation_input_container {
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  z-index: 2;
+  margin-top: 0.6rem;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+}
+
+.date_input,
+.members_input,
+.occasion_input,
+.time_input {
+  display: block;
+  border: none;
+  outline: none;
+  padding: 1.5rem;
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.date_class input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 100%;
+  font-size: 2rem;
+  z-index: 2;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.absolute_class {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  padding: 0.5rem 2.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.absolute_class span {
+  font-size: 2rem;
+  opacity: 0.6;
+}
+
+.show_input_details {
+  background-color: var(--clr-bg-1);
+  color: white;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.show_input_details span {
+  opacity: 1;
+}
+
+select option {
+  font-size: 2.5rem;
+}
+
+/* Form 2 */
+
+.form_2_container {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  height: 100%;
+}
+
+.form_2_container_form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr) 2fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 20px;
+  grid-row-gap: 1.5rem;
+}
+
+.form_2_container_form label,
+.form_2_container_form input {
+  display: block;
+  width: 100%;
+}
+
+.form_2_container_form label {
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 4px;
+}
+
+.form_2_container_form input {
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.9rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.specialRequest_class textarea {
+  font-size: 1.5rem;
+  color: var(--clr-bg-1);
+  font-weight: bold;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form_2_state_details {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2.5rem;
+  gap: 3rem 0.5rem;
+  color: white;
+}
+
+.form2_calendar span,
+.form2_diners span,
+.form2_time span,
+.form2_occasion span {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.form2_calendar,
+.form2_diners,
+.form2_time,
+.form2_occasion {
+  font-size: 2rem;
+  cursor: pointer;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.orange_color {
+  color: rgb(255, 140, 0);
+  color: #ffa368;
+  text-shadow: none;
+}
+
+.form2_seating {
+  text-align: center;
+  margin: 1rem 0;
+  margin: 1.5rem 0;
+}
+.form2_seating label {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form2_diners,
+.form2_occasion {
+  justify-self: flex-end;
+}
+
+.form2_agrement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form2_agrement input,
+.form2_agrement label {
+  cursor: pointer;
+}
+
+.form2_agrement input {
+  width: 25px;
+  display: inline-block;
+  margin-right: 1.2rem;
+}
+
+.form2_agrement label {
+  font-size: 1.2rem;
+  font-size: 1.2rem;
+  transform: translateY(2px);
+}
+
+.form_errors_class {
+  font-size: 1.4rem;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.1rem;
+  color: rgba(255, 162, 104, 0.9);
+  transform: translateY(4px);
+}
+
+/* CofirmCard */
+
+.confirm_card {
+  width: clamp(200px, 90%, 700px);
+  height: 250px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateY(-200%);
+  z-index: 55;
+  color: cadetblue;
+  color: var(--clr-bg-1);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  animation: confirmAnimation 0.5s forwards;
+}
+
+.confirm_card h1 {
+  font-size: clamp(1.6rem, 4vw, 3.5rem);
+}
+.confirm_card h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+@keyframes confirmAnimation {
+  from {
+    transform: translateY(-200%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .form_2_container_form {
+    grid-column-gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reservation_form_img_container figure {
+    gap: 3rem;
+  }
+
+  .reservation_form_img_container figure img {
+    width: 100%;
+  }
+
+  /* !Form2 */
+  .form_2_container_form {
+    grid-column-gap: 5rem;
+  }
+
+  .form2_calendar,
+  .form2_diners,
+  .form2_time,
+  .form2_occasion {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .reservation_form_img_container figure {
+    gap: 1.5rem;
+    grid-template-rows: 200px;
+  }
+
+  /* Form 1 */
+
+  .reservation form {
+    gap: 2.5rem 4rem;
+  }
+
+  .absolute_class {
+    padding: 0.5rem 1.5rem;
+  }
+
+  /* !Form2 */
+
+  .form_2_container_form {
+    grid-column-gap: 3rem;
+  }
+
+  .form_2_container_form label {
+    font-size: 1.2rem;
+  }
+
+  .form_2_container_form input,
+  .specialRequest_class textarea {
+    font-size: 1.4rem;
+  }
+
+  .form2_calendar,
+  .form2_diners,
+  .form2_time,
+  .form2_occasion {
+    font-size: 1.4rem;
+  }
+
+  .form2_agrement label {
+    font-size: 1rem;
+  }
+
+  .form_errors_class {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form2_calendar span,
+  .form2_diners span,
+  .form2_time span,
+  .form2_occasion span {
+    margin-left: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .little_Lemon_background {
+    min-width: 150px;
+  }
+  .little_Lemon_background img {
+    width: 180px;
+    opacity: 0.1;
+  }
+
+  .little_Lemon_background img:nth-last-of-type(odd) {
+    opacity: 0.2;
+  }
+
+  .reservation_form_img_container {
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding: 1rem 0;
+  }
+
+  .reservation_form_img_container figure {
+    grid-template-rows: auto;
+  }
+
+  .reservation_form_img_container figure img {
+    height: 105px;
+  }
+
+  /* Form1 */
+
+  .reservation {
+    padding-bottom: 1.5rem;
+  }
+  .reservation_heading {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .reservation form {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1.5rem 2rem;
+  }
+
+  .reservation label {
+    font-size: 1.3rem;
+  }
+
+  .indoor,
+  .outdoor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: baseline;
+  }
+
+  .indoor label,
+  .outdoor label {
+    font-size: 1.4rem;
+  }
+
+  .indoor input,
+  .outdoor input {
+    width: 1.2rem;
+    transform: translateY(-1px);
+  }
+
+  .date_input,
+  .members_input,
+  .occasion_input,
+  .time_input {
+    padding: 1rem;
+  }
+  .absolute_class span {
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+  }
+
+  /* ? Form2 */
+
+  .form_2_container_form {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    row-gap: 1rem;
+    row-gap: 0.6rem;
+  }
+
+  .form_2_state {
+    width: 95%;
+    margin: 1rem auto;
+    order: 2;
+  }
+
+  .form2_calendar,
+  .form2_diners,
+  .form2_time,
+  .form2_occasion {
+    font-size: 1.6rem;
+  }
+
+  .form2_calendar span,
+  .form2_diners span,
+  .form2_time span,
+  .form2_occasion span {
+    margin-left: 1.6rem;
+  }
+
+  .form2_seating {
+    text-align: center;
+  }
+
+  .confirm_card {
+    padding: 1rem;
+    height: 180px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .indoor,
+  .outdoor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.4fr;
+    align-items: center;
+    justify-items: baseline;
+  }
+}
