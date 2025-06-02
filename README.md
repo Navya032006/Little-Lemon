@@ -19,4 +19,4 @@ This is a responsive restaurant website for **Little Lemon**, built using **Reac
 - JavaScript (ES6+)
   
 ## Deployment
-little-lemon-frontendcapstone.netlify.app
+https://little-lemon-frontendcapstone.netlify.app/
