@@ -1,29 +1,7 @@
+
 # 🍋 Little Lemon Restaurant Website
 
 This is a responsive restaurant website for **Little Lemon**, built using **React.js**, **HTML**, **CSS**, **JavaScript**, and **Bootstrap 5** as part of the **Meta Front-End Developer Professional Certificate** on Coursera.
-
-## 🚀 Project Features
-
-- Responsive layout using Bootstrap 5  
-- Clean and modular React components  
-- Interactive reservation form with client-side validation  
-- Lemon-inspired color theme (yellow and green)  
-- Organized project structure with clean, commented code  
-
-## 🧱 Tech Stack
-
-- React.js  
-- Bootstrap 5  
-- HTML5  
-- CSS3  
-- JavaScript (ES6+)
-  
-## Deployment
-https://little-lemon-frontendcapstone.netlify.app/
-# 🍋 Little Lemon Restaurant Website
-
-A responsive restaurant website built for **Little Lemon** using **React.js** and **Bootstrap 5** as part of the  
-**Meta Front-End Developer Professional Certificate (Coursera)**.
 
 🔗 Live Demo: https://little-lemon-frontendcapstone.netlify.app/
 
@@ -72,7 +50,10 @@ This project focuses on building a modern frontend solution for a restaurant web
 ---
 
 ## 📷 Screenshots
-(Add 1–2 screenshots of your homepage and reservation form here)
+<img width="1897" height="921" alt="Screenshot 2026-01-01 142706" src="https://github.com/user-attachments/assets/7fd71c16-e660-4718-b6f3-baf2b38fe2d3" />
+<img width="1811" height="911" alt="Screenshot 2026-01-01 142744" src="https://github.com/user-attachments/assets/153f8c7a-15f4-433e-bb9c-c2ad44941c1e" />
+<img width="1721" height="909" alt="Screenshot 2026-01-01 142830" src="https://github.com/user-attachments/assets/e91db169-ae75-4307-be99-c673d67face1" />
+<img width="1767" height="923" alt="Screenshot 2026-01-01 142805" src="https://github.com/user-attachments/assets/3dd771d1-1be2-49ce-b4e5-1a9dc59b34d2" />
 
 ---
 
