@@ -5,6 +5,7 @@ This is a responsive restaurant website for **Little Lemon**, built using **Reac
 
 🔗 Live Demo: https://little-lemon-frontendcapstone.netlify.app/
 
+
 ---
 
 
@@ -12,6 +13,7 @@ This is a responsive restaurant website for **Little Lemon**, built using **Reac
 Restaurants need an attractive and responsive web presence to showcase their brand,
 menu, and allow customers to make reservations easily.
 This project focuses on building a modern frontend solution for a restaurant website.
+
 
 ---
 
@@ -23,6 +25,7 @@ This project focuses on building a modern frontend solution for a restaurant web
 - Lemon-inspired color theme (yellow & green)
 - Well-structured and readable frontend code
 
+
 ---
 
 
@@ -32,6 +35,7 @@ This project focuses on building a modern frontend solution for a restaurant web
 - HTML5
 - CSS3
 - JavaScript (ES6+)
+
 
 ---
 
@@ -51,6 +55,7 @@ This project focuses on building a modern frontend solution for a restaurant web
 
 5. Open `http://localhost:3000` in your browser
 
+
 ---
 
 
@@ -63,6 +68,7 @@ This project focuses on building a modern frontend solution for a restaurant web
 
 <img width="1767" height="923" alt="Screenshot 2026-01-01 142805" src="https://github.com/user-attachments/assets/3dd771d1-1be2-49ce-b4e5-1a9dc59b34d2" />
 
+
 ---
 
 
@@ -73,6 +79,7 @@ This project focuses on building a modern frontend solution for a restaurant web
 - Structuring a real-world frontend project
 - Deploying a React app using Netlify
 
+
 ---
 
 
@@ -80,4 +87,5 @@ This project focuses on building a modern frontend solution for a restaurant web
 - Backend integration for reservations
 - Authentication for users
 - Improved accessibility
+
 
